@@ -474,7 +474,7 @@ var Dialog = (function () {
                     dialog.el.className = clsElHide;
                 }
                 dialog.cover.className  = clsCoverHide;
-                elCallee.focus();
+                elCallee && elCallee.focus();
             }
         };
 
